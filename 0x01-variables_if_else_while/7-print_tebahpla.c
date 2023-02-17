@@ -1,15 +1,19 @@
 #include <stdio.h>
-
+#include <time.h>
+#include <stdlib.h>
 /**
  * main - print the alphabets in reverse
  * Return: 0
  */
 int main(void)
 {
-	char le;
+	char c = 'z';
 
-	for (le = 'z'; le >= 'a'; le--)
-		putchar(le)
+	while (c >= 'a';)
+	{
+		putchar(c);
+		c--;
+	}
 
 	putchar('\n');
 
