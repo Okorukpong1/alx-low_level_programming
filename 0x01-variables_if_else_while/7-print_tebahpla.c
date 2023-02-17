@@ -13,7 +13,7 @@ int main(void)
 	 * loops through alphabet from the behind
 	 * prints in reverse
 	 */
-	for (rv = 'z'; rv >= 'a'; rv--)
+	for (rv = 'z' ; rv >= 'a' ; rv--)
 	{
 		putchar(rv);
 	}
