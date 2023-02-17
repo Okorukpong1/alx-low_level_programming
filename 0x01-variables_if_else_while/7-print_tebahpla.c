@@ -1,20 +1,22 @@
 #include <stdio.h>
-
+#include <ctype.h>
 /**
  * main - print the alphabets in reverse
+ *
  * Return: 0
  */
 int main(void)
 {
-	char c = 'z';
+	char rv
 
-	while (c >= 'a';)
+	/*
+	 * loops through alphabet from the behind
+	 * prints in reverse
+	 */
+	for (rv = 'z'; rv >= 'a'; rv--)
 	{
-		putchar(c);
-		c--;
+		putchar(rv);
 	}
-
 	putchar('\n');
-
 	return (0);
 }
