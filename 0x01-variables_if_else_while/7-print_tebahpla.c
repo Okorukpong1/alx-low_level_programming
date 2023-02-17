@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	for rv
+	for rv;
 
 	/*
 	 * loops through alphabet from the behind
