@@ -8,23 +8,23 @@
  * else - the number under conversion
  */
 
-unsigned int binary_to_uint(const char *b);
+unsigned int binary_to_uint(const char *b)
 {
 	int len;
 	unsigned int nom;
 
 	nom = 0;
-	if (!z)
+	if (!b)
 		return (0);
-	for (len = 0; z[len] != '0/'; len++)
+	for (len = 0; b[len] != '\0'; len++)
 	{
-		if z[len] != '0' && z[len] != '1')
+		if (b[len] != '0' && b[len] != '1')
 			return (0);
 	}
-	for (len = 0; z[len] != '0/'; len++)
+	for (len = 0; b[len] != '\0'; len++)
 	{
 		nom <<= 1;
-		if (z[len] == '1')
+		if (b[len] == '1')
 			nom += 1;
 	}
 	return (nom);
