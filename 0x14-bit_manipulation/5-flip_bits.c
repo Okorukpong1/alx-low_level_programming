@@ -11,18 +11,18 @@
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	unsigned long int sow, find;
-	unsigned int nom, z;
+	unsigned long int btw, check;
+	unsigned int num, i;
 
-	find = 1;
-	sow = n ^ m;
-	nom = 0;
+	check = 1;
+	btw = n ^ m;
+	num = 0;
 
-	for (i = 0; i < (sizeof(unsigned long int) * 8); z++)
+	for (i = 0; i < (sizeof(unsigned long int) * 8); i++)
 	{
-		if (find == (sow & find))
-			nom++;
-		find <<= 1;
+		if (check == (btw & check))
+			num++;
+		check <<= 1;
 	}
-	return (nom);
+	return (num);
 }
