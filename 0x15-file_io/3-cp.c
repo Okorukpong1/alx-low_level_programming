@@ -6,9 +6,9 @@
 #include <stdio.h>
 
 /**
- * main - copy the content of a file to another file
- * @argc: number of  the arguments
- * @argv: array of pointers to arguments
+ * main - copy the content of a file to another file.
+ * @argc: number of arguments.
+ * @argv: array of pointers to the arguments
  *
  * Return: 0 on sucess
  */

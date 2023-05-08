@@ -5,9 +5,9 @@
 #include <fcntl.h>
 
 /**
- * create_file - creates a filjje.
- * @filename: name of the fiwwle to create
- * @text_content: NULL terminated string to write tod file
+ * create_file - creates a file.
+ * @filename: name of the file to create
+ * @text_content: NULL terminated string to write to the file
  *
  * Return: -1 if failure else 1
  */
